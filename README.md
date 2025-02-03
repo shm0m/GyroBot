@@ -46,14 +46,6 @@ The main goal is to **maintain a stable position** by adjusting the servomotors'
 3. **Open the Serial Monitor** (115200 baud) to observe the angle and PID corrections.
 4. **Watch the servos** adjust the balance according to the movements.
 
----
-
-## ⚙️ Possible Improvements
-- Implement **complementary filtering** for better accuracy.
-- Optimize **PID coefficients** using an **auto-tune algorithm**.
-- Integrate **Bluetooth control** to dynamically adjust the target angle.
-
----
 
 ## 📌 Conclusion
 **GyroBot** is a system based on an **MPU6050 and servos**, using a **PID controller** to stabilize an angle. This project can be improved and adapted for applications like **self-balancing robots** or **gyrostabilized systems**.
